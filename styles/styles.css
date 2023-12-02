@@ -1,0 +1,145 @@
+:root {
+  /* Accent pink */
+  --clr-pink-100: #f1eaf0;
+  --clr-pink-200: #c9a8ca;
+  --clr-pink-300: #a167a5;
+  --clr-pink-400: #522a55;
+  --clr-pink-500: #301532;
+
+  /* Base Colors */
+  --clr-base-lt-purple: #e8d7f1;
+  --clr-base-beige: #d3bccc;
+  --clr-base-pink: #a167a5;
+  --clr-base-purple: #4a306d;
+  --clr-base-blue: #0e273c;
+
+  /* Spacing */
+  --spacer-sm: 8px;
+  --spacer-md: 16px;
+  --spacer-lg: 32px;
+  --spacer-xl: 48px;
+  --spacer-xxl: 72px;
+
+  /* Text */
+  --txt-title-xs: 1.2rem;
+  --txt-title-sm: 2rem;
+  --txt-title-md: 2.5rem;
+  --txt-title-lg: 3rem;
+  --txt-title-xl: 3.5rem;
+  --txt-title-xxl: 6rem;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #040b11;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  max-width: 80ch;
+  color: var(--clr-base-lt-purple);
+}
+
+.ingress {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+
+.code {
+  font-family: "Martian Mono", monospace;
+  font-size: 0.8rem;
+  line-height: 1.7rem;
+  font-weight: 100;
+  color: var(--clr-base-pink);
+  margin-bottom: 1.2rem;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(14, 39, 60, 0.2);
+  padding-top: 2rem;
+}
+
+/* 60 - 30 - 10 Rule */
+
+.clr-roule-wrapper {
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+
+.clr-rule {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+
+.clr-60 {
+  width: 60%;
+  background: var(--clr-base-blue);
+}
+
+.clr-30 {
+  width: 30%;
+  background: var(--clr-base-lt-purple);
+}
+
+.clr-10 {
+  width: 10%;
+  background: var(--clr-base-pink);
+}
+
+/* Accent Colors */
+
+.pink-100 {
+  background-color: var(--clr-pink-100);
+}
+
+.pink-200 {
+  background-color: var(--clr-pink-200);
+}
+
+.pink-300 {
+  background-color: var(--clr-pink-300);
+}
+
+.pink-400 {
+  background-color: var(--clr-pink-400);
+}
+
+.pink-500 {
+  background-color: var(--clr-pink-500);
+}
+
+/* Base Colors */
+
+.light-purple {
+  background-color: var(--clr-base-lt-purple);
+}
+
+.beige {
+  background-color: var(--clr-base-beige);
+}
+
+.pink {
+  background-color: var(--clr-base-pink);
+}
+
+.purple {
+  background-color: var(--clr-base-purple);
+}
+
+.blue {
+  background-color: var(--clr-base-blue);
+}

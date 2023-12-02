@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;500&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,600;0,6..12,900;1,6..12,700&display=swap" rel="stylesheet"
+    />
+    <title>HYPERTXT Design System</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/hero.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/theme-colors.css" />
+    <link rel="stylesheet" href="./styles/utility.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo-wrapper">
+        <div class="header__logo">HyperTxt</div>
+        <span class="header__logo-subtitle">Design system</span>
+      </div>
+      <nav class="header__nav">
+          <a href="#">Colors</a>
+          <a href="#">Typography</a>
+          <a href="#">Spacing</a>
+      </nav>
+      <button class="header__bars">
+        <svg xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke-width="1.5"
+    stroke="currentColor"
+    width="34"
+    height="34"
+    >
+        <path stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M3.75 9h16.5m-16.5 6.75h16.5"
+        />
+    </svg>
+    </button>
+    </header>
+      <section class="hero container">
+        <div class="hero__text-wrapper">
+          <h1 class="hero__title">Design With Consistency</h1>
+          <h3 class="hero__subtitle">Colors, Typography and Spacing</h3>
+        </div>
+          <img class="hero__img" src="./images/hero-illustration.svg" alt="">
+      </section>
+        <h2 class="section-divider container">Colors</h2>
+        <section class="theme-colors container">
+          <div class="theme-colors__text-container">
+            <h3 class="theme-colors__title">Theme Colors</h3>
+            <p class="theme-colors__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quasi
+              nobis eligendi repellat rerum laborum illum consequuntur quod ut.
+            </p>
+          </div>
+          <div class="theme-color__box-container">
+            <div class="color-box-container">
+              <div class="theme-color light-purple"></div>
+              <div class="code">
+                <h4 class="color__name">Light Pink</h4>
+                hsl(207,62,15)<br>
+                rgb(14,39,60)<br>
+                #345654
+              </div>
+            </div>
+            <div class="color-box-container">
+              <div class="theme-color beige"></div>
+              <div class="code">
+                <h4 class="color__name">Light Beige</h4>
+                hsl(207,62,15)<br>
+                rgb(14,39,60)<br>
+                #345654
+              </div>
+            </div>
+            <div class="color-box-container">
+              <div class="theme-color pink"></div>
+              <h4>Base Pink</h4>
+              <div class="code">
+                --clr-base-pink<br>
+                hsl(207,62,15)<br>
+                rgb(14,39,60)<br>
+                #345654
+              </div>
+            </div>
+            <div class="color-box-container">
+              <div class="theme-color purple"></div>
+              <h4>Base Purple</h4>
+              <div class="code">
+                --clr-base-pink<br>
+                hsl(207,62,15)<br>
+                rgb(14,39,60)<br>
+                #345654
+              </div>
+            </div>
+            <div class="color-box-container">
+              <div class="theme-color blue"></div>
+              <h4>Base blue</h4>
+              <div class="code">
+                --clr-base-pink<br>
+                hsl(207,62,15)<br>
+                rgb(14,39,60)<br>
+                #345654
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="color-rule">
+          <h3>60 - 30 - 10 - Rule</h3>
+        <p>
+          The 60-30-10 rule emphasizes key design elements by allocating percentages to dominant, secondary, and accent colors, creating visual balance and simplicity. Dominant color sets the mood, secondary color supports it, and the 10% accent color highlights specific features, ensuring equilibrium and preventing overwhelming color combinations.
+        </p>
+        <div class="clr-roule-wrapper">
+          <div class="clr-60 clr-rule" style="color: var(--pink-100)">60%</div>
+          <div class="clr-30 clr-rule">30%</div>
+          <div class="clr-10 clr-rule">10%</div>
+        </div>
+        </section>
+        <h3>Accent Colors</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quasi
+          nobis eligendi repellat rerum laborum illum consequuntur quod ut.
+        </p>
+        <h4>Pink</h4>
+        <div class="color-wrapper">
+          <div class="color-box-container">
+            <div class="color-box pink-100">Pink-100</div>
+          </div>
+          <div class="color-box-container">
+            <div class="color-box pink-200">Pink-200</div>
+          </div>
+          <div class="color-box-container">
+            <div class="color-box pink-300">Pink-300</div>
+          </div>
+          <div class="color-box-container">
+            <div class="color-box pink-400" style="color: var(--pink-100)">Pink-400</div>
+          </div>
+          <div class="color-box-container">
+            <div class="color-box pink-500" style="color: var(--pink-100)">Pink-500</div>
+          </div>
+        </div>
+        <h4>Blue</h4>
+        <div class="color-wrapper">
+          <div class="color-box-container">
+            <div class="color-box pink-100">Pink-100</div>
+          </div>
+          <div class="color-box-container">
+            <div class="color-box pink-200">Pink-200</div>
+          </div>
+          <div class="color-box-container">
+            <div class="color-box pink-300">Pink-300</div>
+          </div>
+          <div class="color-box-container">
+            <div class="color-box pink-400" style="color: var(--pink-100)">Pink-400</div>
+          </div>
+          <div class="color-box-container">
+            <div class="color-box pink-500" style="color: var(--pink-100)">Pink-500</div>
+          </div>
+        </div>
+      </section>
+      <section class="Typography">
+        <h2 class="divider">Typography</h2>
+        <h3>Typography defines hierarchy</h3>
+        <p>
+          Typography is an essential factor in establishing hierarchy within design. Variable font weights are used to convey varying levels of importance, with the heavier weights indicating a higher degree of significance.
+        </p>
+        <h3>Nunito Sans</h3>
+        <p>
+          Nunito, a versatile sans-serif typeface, forms the core of our design system, emphasizing simplicity and consistency. It encompasses two versions: Nunito with rounded terminals and Nunito Sans with non-rounded terminals. We use Nunito exclusively to ensure a unified design approach.
+        </p>
+        <div class="headings">
+          <h3>Headings</h3>
+          <h1>h1. The quick brown fox jumps</h1>
+          <div class="code">Font-size: 2rem</div>
+          <h2>h2. The quick brown fox jumps over the lazy</h2>
+          <div class="code">Font-size: 2rem</div>
+          <h3>h3. The quick brown fox jumps over the lazy dog</h3>
+          <div class="code">Font-size: 2rem</div>
+          <h4>h4. The quick brown fox jumps over the lazy dog</h4>
+          <div class="code">Font-size: 2rem</div>
+        </div>
+        <div class="body-text">
+          <h3>Body Text</h3>
+          <h4>Ingress</h4>
+          <div class="ingress">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+          <div class="code">Font-size: 2rem</div>
+          <h4>Body text</h4>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+          <div class="code">H1 - Font-size: 2rem</div>
+        </div>
+      </section>
+      <section class="Spacing">
+        <h2 class="divider">Spacing</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quasi
+          nobis eligendi repellat rerum laborum illum consequuntur quod ut.
+        </p>
+    <footer>
+      <p>&#169; Copyright 2023 - Tom Erik heggedal</p>
+    </footer>
+  </body>
+</html>
