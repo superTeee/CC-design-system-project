@@ -1,3 +1,3 @@
-# Slaying the dragen project
+# Code Cademy project
 
 learning CSS and HTML + responsive design
