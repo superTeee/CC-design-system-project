@@ -86,7 +86,7 @@
 /* 60 - 30 - 10 - Rule */
 
 .color-rule {
-  margin-top: 5rem;
+  margin-top: 8rem;
   display: flex;
   justify-content: space-between;
   gap: 5rem;
@@ -112,16 +112,19 @@
   width: 100%;
   height: 60px;
   display: flex;
+  gap: 0.5rem;
 }
 
 .color-rule__color-box {
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: start;
   color: black;
   font-size: 1.1rem;
   font-weight: 600;
   padding-left: 1rem;
+  padding-bottom: 1rem;
+  height: 100px;
 }
 
 .color-rule__color-60 {
@@ -138,4 +141,24 @@
 .color-rule__color-10 {
   width: 10%;
   background: var(--clr-base-pink);
+}
+
+/* Accent colors */
+
+.accent-colors {
+  margin-top: 5rem;
+  display: flex;
+}
+
+.accent-colors__title {
+  font-size: var(--txt-title-sm);
+  font-weight: 600;
+  color: var(--clr-pink-100);
+}
+
+.accent-colors__description {
+  font-size: 1rem;
+  color: var(--clr-pink-200);
+  line-height: 1.6em;
+  max-width: 50ch;
 }
