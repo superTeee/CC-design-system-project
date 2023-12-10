@@ -54,6 +54,35 @@
   letter-spacing: 0.04em;
 }
 
+/* 2xl */
+/* @media (max-width: 1536px) {} */
+
+/* Xl */
+/* @media (max-width: 1280px) {} */
+
+/* Lg */
+@media (max-width: 1024px) {
+  .theme-colors {
+    flex-direction: column;
+    gap: 0rem;
+  }
+
+  .theme-colors__description {
+    max-width: 60ch;
+  }
+}
+
+/* Md */
+@media (max-width: 768px) {
+}
+
+/* Sm */
+@media (max-width: 640px) {
+}
+
+/* Xs */
+/* @media (max-width: 475px) {} */
+
 /* 60 - 30 - 10 - Rule */
 
 .color-rule {
