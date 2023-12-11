@@ -1,10 +1,10 @@
 :root {
-  /* Accent pink */
-  --clr-pink-100: #f1eaf0;
-  --clr-pink-200: #c9a8ca;
-  --clr-pink-300: #a167a5;
-  --clr-pink-400: #522a55;
-  --clr-pink-500: #301532;
+  /* Primary color */
+  --clr-primary-100: #f1eaf0;
+  --clr-primary-200: #c9a8ca;
+  --clr-primary-300: #a167a5;
+  --clr-primary-400: #522a55;
+  --clr-primary-500: #301532;
 
   /* Base Colors */
   --clr-base-lt-purple: #e8d7f1;
@@ -12,6 +12,19 @@
   --clr-base-pink: #a167a5;
   --clr-base-purple: #4a306d;
   --clr-base-blue: #0e273c;
+
+  /* Neutral */
+  --clr-neutral-100: #0f2333;
+  --clr-neutral-200: #0b1b28;
+  --clr-neutral-300: #07131d;
+  --clr-neutral-400: #040b11;
+  --clr-neutral-500: #030303;
+
+  /* Semantic */
+  --clr-positive: #67a698;
+  --clr-information: #677ca6;
+  --clr-notice: #b78756;
+  --clr-negative: #b75656;
 
   /* Spacing */
   --spacer-sm: 8px;
@@ -31,7 +44,7 @@
 
 body {
   font-family: "Nunito Sans", sans-serif;
-  background-color: #040b11;
+  background-color: var(--clr-neutral-400);
 }
 
 p {
@@ -63,7 +76,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(14, 39, 60, 0.2);
+  background: var(--clr-neutral-500);
   padding-top: 2rem;
 }
 

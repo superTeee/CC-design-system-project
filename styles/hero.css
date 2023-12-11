@@ -15,7 +15,7 @@
   font-size: var(--txt-title-xxl);
   line-height: 1.2em;
   font-weight: 900;
-  color: var(--clr-pink-100);
+  color: var(--clr-primary-100);
 }
 
 .hero__subtitle {
@@ -34,7 +34,7 @@
 /* Xl */
 @media (max-width: 1280px) {
   .hero {
-    margin-top: 4rem;
+    margin: 4rem 7rem;
   }
   .hero__title {
     font-size: 5rem;
@@ -50,7 +50,7 @@
 /* Lg */
 @media (max-width: 1024px) {
   .hero {
-    margin-top: 3rem;
+    margin: 3rem 4rem;
   }
   .hero__title {
     font-size: 4rem;
@@ -66,7 +66,7 @@
 /* Md */
 @media (max-width: 768px) {
   .hero {
-    margin-top: 2rem;
+    margin: 2rem 3rem;
   }
   .hero__text-wrapper {
     gap: 1rem;

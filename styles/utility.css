@@ -14,6 +14,28 @@ img {
   font-weight: 600;
   margin-top: 4rem;
   padding: 2rem 0 0.6rem;
-  border-bottom: 1px solid var(--clr-pink-400);
-  color: var(--clr-pink-100);
+  border-bottom: 1px solid var(--clr-primary-400);
+  color: var(--clr-primary-100);
 }
+
+/* 2xl */
+/* @media (max-width: 1536px) {} */
+
+/* Xl */
+/* @media (max-width: 1280px) {} */
+
+/* Lg */
+@media (max-width: 1024px) {
+  .section-divider {
+    font-size: var(--txt-title-md);
+  }
+}
+
+/* Md */
+/* @media (max-width: 768px) {} */
+
+/* Sm */
+/* @media (max-width: 640px) {} */
+
+/* Xs */
+/* @media (max-width: 475px) {} */

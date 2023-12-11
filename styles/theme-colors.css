@@ -12,12 +12,12 @@
 .theme-colors__title {
   font-size: var(--txt-title-sm);
   font-weight: 600;
-  color: var(--clr-pink-100);
+  color: var(--clr-primary-100);
 }
 
 .theme-colors__description {
   font-size: 1rem;
-  color: var(--clr-pink-200);
+  color: var(--clr-primary-200);
   line-height: 1.6em;
 }
 
@@ -48,7 +48,7 @@
 .color__name {
   font-family: "Nunito Sans", sans-serif;
   font-size: var(--txt-title-xs);
-  color: var(--clr-pink-100);
+  color: var(--clr-primary-100);
   font-weight: 600;
   margin: 1.2rem 0 0.3rem;
   letter-spacing: 0.04em;
@@ -99,12 +99,12 @@
 .color-rule__title {
   font-size: var(--txt-title-sm);
   font-weight: 600;
-  color: var(--clr-pink-100);
+  color: var(--clr-primary-100);
 }
 
 .color-rule__description {
   font-size: 1rem;
-  color: var(--clr-pink-200);
+  color: var(--clr-primary-200);
   line-height: 1.6em;
 }
 
@@ -129,17 +129,20 @@
 
 .color-rule__color-60 {
   width: 60%;
+  min-width: 240px;
   background: var(--clr-base-blue);
-  color: var(--clr-pink-100);
+  color: var(--clr-primary-100);
 }
 
 .color-rule__color-30 {
   width: 30%;
+  min-width: 120px;
   background: var(--clr-base-lt-purple);
 }
 
 .color-rule__color-10 {
   width: 10%;
+  min-width: 60px;
   background: var(--clr-base-pink);
 }
 
@@ -153,12 +156,12 @@
 .accent-colors__title {
   font-size: var(--txt-title-sm);
   font-weight: 600;
-  color: var(--clr-pink-100);
+  color: var(--clr-primary-100);
 }
 
 .accent-colors__description {
   font-size: 1rem;
-  color: var(--clr-pink-200);
+  color: var(--clr-primary-200);
   line-height: 1.6em;
   max-width: 50ch;
 }

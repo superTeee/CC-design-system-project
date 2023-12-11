@@ -40,12 +40,12 @@ header {
 }
 
 .header__nav a:hover {
-  color: var(--clr-pink-100);
+  color: var(--clr-primary-100);
 }
 
 .header__bars {
   display: none;
-  color: var(--clr-pink-100);
+  color: var(--clr-primary-100);
 }
 
 /* 2xl */
